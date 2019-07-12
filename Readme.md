@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Владислав Кныш](https://up.htmlacademy.ru/adaptive/17/user/998749).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Карташов](https://up.htmlacademy.ru/adaptive/17/user/77080).
 
 ---
 
