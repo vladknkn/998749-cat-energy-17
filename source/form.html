@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Подбор программы</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="header__logo" href="#">
+          <img class="header__logo-image" src="#" alt="Интернет-магазин Кэт энерджи">
+      </a>
+      <button class="header__toggle" type="button">Открыть меню</button>
+      <nav class="main-nav">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a class="site-list__link" href="#">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="catalog.html">Каталог продукции</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="#">Подбор программы</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="selection">
+        <h1 class="selection__header">
+          Подбор программы
+        </h1>
+        <p class="selection__description">
+          Заполните анкету и мы подберем программу питания для вашего кота
+        </p>
+        <section class="main-info">
+          <ul class="main-info__list info-list">
+            <li class="info-list__item">
+              <label class="info-list__label" for="info-name">
+                  Имя:*
+              </label>
+              <input class="info-list__input" type="text" id="info-name" placeholder="Барсик">
+            </li>
+            <li class="info-list__item">
+              <label class="info-list__label" for="info-weight">
+                Вес (Кг):*
+              </label>
+              <input class="info-list__input" type="text" id="info-weight" placeholder="7">
+            </li>
+            <li class="info-list__item">
+              <label class="info-list__label" for="info-age">
+                Возраст (Лет):*
+              </label>
+              <input class="info-list__input" type="text" id="info-age" placeholder="7">
+            </li>
+          </ul>
+        </section>
+        <section class="goal">
+          <ul class="goal__list goal-list">
+            <li class="goal-list__item">
+              <input class="goal-list__input" type="radio" id="goal-loss" checked>
+              <label class="goal-list__label" for="goal-loss">
+                Похудение
+              </label>
+            </li>
+            <li class="goal-list__item">
+              <input class="goal-list__input" type="radio" id="goal-gain">
+              <label class="goal-list__label" for="goal-gain">
+                Набор массы
+              </label>
+            </li>
+            <li class="goal-list__item">
+              <input class="goal-list__input" type="radio" id="goal-unkown">
+              <label class="goal-list__label" for="goal-unkown">
+                Не знаю (нужен ваш совет)
+              </label>
+            </li>
+          </ul>
+        </section>
+        <section class="contacts">
+          <h2 class="contacts__header">
+            Контактные данные (владельца кота)
+          </h2>
+          <ul class="contacts__list contacts-list">
+            <li class="contacts-list__item">
+              <label class="contacts-list__label" for="contacts-email">
+                E-mail:*
+              </label>
+              <input class="contacts-list__input" type="text" id="contacts-email" placeholder="kuklachev@gmail.com">
+            </li>
+            <li class="contacts-list__item">
+              <label class="contacts-list__label" for="contacts-number">
+                Телефон:*
+              </label>
+              <input class="contacts-list__input" type="text" id="contacts-number" placeholder="8 (960) 900-60-90">
+            </li>
+          </ul>
+        </section>
+        <section class="commentary">
+          <h2 class="commentary__header">
+            Комментарий
+          </h2>
+          <input class="commentary__input" type="text" placeholder="Расскажите обо всех повадках кота">
+        </section>
+        <section class="extras">
+          <h2 class="extras__header">
+            Дополнительно
+          </h2>
+          <ul class="extras__list extras-list">
+            <li class="extras-list__item">
+              <input class="extras-list__input" type="checkbox" id="extras-sugar" checked>
+              <label class="extras-list__label" for="extras-sugar">
+                Сахарозаменитель
+              </label>
+            </li>
+            <li class="extras-list__item">
+              <input class="extras-list__input" type="checkbox" id="extras-water">
+              <label class="extras-list__label" for="extras-water">
+                Питьевая вода
+              </label>
+            </li>
+            <li class="extras-list__item">
+              <input class="extras-list__input" type="checkbox" id="extras-milk">
+              <label class="extras-list__label" for="extras-milk">
+                Молоко
+              </label>
+            </li>
+            <li class="extras-list__item">
+              <input class="extras-list__input" type="checkbox" id="extras-vitamins">
+              <label class="extras-list__label" for="extras-vitamins">
+                Витамины
+              </label>
+            </li>
+          </ul>
+        </section>
+        <button class="selection__submit" type="submit">
+          Отправить заявку
+        </button>
+        <span class="selection__footnote">
+            * — Обязательные поля
+        </span>
+      <div class="main__wrapper">
+          <section class="invintation">
+              <h2 class="visually-hidden">
+                Наш адрес
+              </h2>
+              <b class="invintation__slogan">
+                  Приглашаем к сотрудничеству дилеров!
+              </b>
+              <p class="invintation__address">
+                  ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
+              </p>
+            </section>
+            <section class="map">
+              <div class="map__wrapper">
+                <a class="map__link" href="#">
+                  <img class="map__image" src="#" alt="Наш офис по адресу ул. Большая Конюшенная, д. 19/8, Санкт-Петербург">
+                </a>
+              </div>
+          </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <a class="footer__logo" href="#">
+        <img class="footer__logo-image" src="#" alt="Интернет-магазин Кэт энерджи">
+      </a>
+      <ul class="footer__socials footer-socials">
+        <li class="footer-socials__item">
+          <a class="footer-socials__link" href="#">
+            <span class="visually-hidden">
+              VK
+            </span>
+          </a>
+          </li>
+        <li class="footer-socials__item">
+          <a class="footer-socials__link" href="#">
+            <span class="visually-hidden">
+              Instagram
+            </span>
+          </a>
+          </li>
+        <li class="footer-socials__item">
+          <a class="footer-socials__link" href="#">
+            <span class="visually-hidden">
+              Facebook
+            </span>
+          </a>
+          </li>
+      </ul>
+      <div class="footer__academy-logo academy-logo">
+        <span class="academy-logo__name">
+          HTML Academy
+        </span>
+        <a class="academy-logo__link" href="#">
+          <img class="academy-logo__image" src="#" alt="HTML Academy">
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
