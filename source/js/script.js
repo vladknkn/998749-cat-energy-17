@@ -2,6 +2,11 @@ var navMain = document.querySelector('.main-nav');
 var navToggle = document.querySelector('.header__nav-toggle--opened');
 
 navToggle.classList.remove('header__nav-toggle--nojs');
+navToggle.classList.remove('header__nav-toggle--opened');
+navToggle.classList.add('header__nav-toggle--closed')
+navMain.classList.add('main-nav--closed');
+navMain.classList.add('main-nav');
+
 
 navToggle.addEventListener('click', function() {
   if (navToggle.classList.contains('header__nav-toggle--opened')) {
