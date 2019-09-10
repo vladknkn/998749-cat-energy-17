@@ -1,0 +1,22 @@
+.cutomer-photo__before,
+.cutomer-photo__after {
+  @include img;
+}
+
+@media (min-width: $tablet-width) {
+  .cutomer-photo__before {
+    height: 513px;
+    width: auto;
+    margin-left: 47px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .cutomer-photo__before {
+    height: 520px;
+    margin-left: -30px;
+    margin-top: -33px;
+    margin-right: -30px;
+  }
+}

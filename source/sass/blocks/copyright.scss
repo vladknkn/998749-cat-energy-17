@@ -1,0 +1,47 @@
+.copyright__logo {
+  fill: #666666;
+}
+
+.copyright {
+  width: 320px;
+  padding-left: 20px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 13px;
+
+  &:hover .copyright__logo {
+    fill: #68b738;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.copyright__name {
+  display: inline-block;
+  font-family: $arial-font;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+  vertical-align: middle;
+  color: #444444;
+}
+
+@media (min-width: $tablet-width) {
+  .copyright {
+    width: 171px;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 135px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .copyright {
+    margin-left: 395px;
+  }
+}

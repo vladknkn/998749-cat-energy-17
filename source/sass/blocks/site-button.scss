@@ -1,0 +1,121 @@
+.site-button {
+  outline: none;
+  font-family: $oswald-font;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  background-color: #68b738;
+  border: none;
+  width: 280px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  &:focus {
+    box-shadow: 0 0 7px 3px rgba(104, 183, 56, 0.25);
+  }
+
+  &:hover {
+    background-color: #5eaa2f;
+    box-shadow: none;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #68b738;
+    box-shadow: none;
+  }
+}
+
+.site-button--catalog {
+  display: inline-block;
+  text-decoration: none;
+  margin: -3px auto 24px;
+}
+
+.site-button--all-catalog {
+  margin: 8px auto 24px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  color: #444444;
+
+  &:focus {
+    box-shadow: 0 0 7px 3px rgba(230, 230, 230, 0.25);
+  }
+
+  &:hover {
+    background-color: #ebebeb;
+    box-shadow: none;
+  }
+
+  &:active {
+    color: rgba(68, 68, 68, 0.3);
+    background-color: #ebebeb;
+    box-shadow: none;
+  }
+}
+
+.site-button--additional {
+  text-decoration: none;
+}
+
+.site-button--user-form {
+  margin-bottom: 3px;
+}
+
+@media (min-width: $tablet-width) {
+  .site-button {
+    width: 249px;
+    font-size: 20px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+  }
+
+  .site-button--catalog {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    margin-top: 17px;
+  }
+
+  .site-button--all-catalog {
+    margin: 0 auto 38px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .site-button--additional {
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 9px;
+  }
+
+  .site-button--user-form {
+    width: 283px;
+    margin-bottom: 0;
+    padding-top: 8px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-button {
+    width: 169px;
+  }
+
+  .site-button--additional {
+    width: 245px;
+    margin-top: 3px;
+    margin-right: -3px;
+  }
+
+  .site-button--user-form {
+    width: 568px;
+  }
+}

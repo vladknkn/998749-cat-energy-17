@@ -1,0 +1,142 @@
+.main__wrapper {
+  margin: 0 auto;
+  width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main__wrapper--form {
+  width: 100%;
+  position: relative;
+}
+
+.main__title {
+  display: inline-block;
+  text-align: left;
+  font-weight: 400;
+  width: 280px;
+  font-size: 36px;
+  line-height: 36px;
+  color: #111111;
+  white-space: nowrap;
+}
+
+.main__title--intro {
+  color: #ffffff;
+  text-align: center;
+  line-height: 36px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.main__title--review {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.main__title--catalog,
+.main__title--form {
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-top: 27px;
+  padding-bottom: 40px;
+}
+
+.main__title--form {
+  padding-bottom: 36px;
+}
+
+.main__description {
+  text-transform: uppercase;
+  color: #111111;
+  font-size: 14px;
+  line-height: 18px;
+  display: block;
+  width: 280px;
+  margin: 0 auto 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .main__wrapper {
+    width: 768px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main__wrapper--form {
+    width: 100%;
+    position: relative;
+  }
+
+  .main__title {
+    font-size: 60px;
+  }
+
+  .main__title--intro {
+    line-height: 60px;
+    text-align: left;
+    color: #111111;
+    padding: 0;
+    margin-top: 49px;
+    margin-bottom: 19px;
+    margin-left: -2px;
+  }
+
+  .main__title--review {
+    margin-top: 55px;
+    margin-bottom: 60px;
+  }
+
+  .main__title--catalog,
+  .main__title--form {
+    width: 768px;
+    padding-top: 62px;
+    padding-bottom: 22px;
+    padding-left: 29px;
+    margin: 0 auto;
+  }
+
+  .main__description {
+    font-size: 20px;
+    line-height: 30px;
+    width: 630px;
+    margin: 45px auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main__wrapper {
+    width: 1300px;
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+
+  .main__wrapper--form {
+    width: 100%;
+    position: relative;
+  }
+
+  .main__title {
+    width: 100%;
+  }
+
+  .main__title--intro {
+    margin-top: 0;
+    margin-left: 0;
+    padding-top: 100px;
+  }
+
+  .main__title--catalog,
+  .main__title--form {
+    width: 1300px;
+    padding-top: 77px;
+    padding-left: 40px;
+  }
+
+  .main__description {
+    width: 1220px;
+  }
+}

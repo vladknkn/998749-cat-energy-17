@@ -1,0 +1,101 @@
+.stats-list {
+  padding: 0;
+  margin-top: 11px;
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+}
+
+.stats-list__wrapper {
+  width: 124px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.stats-list__definition {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  color: #111111;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.stats-list__term {
+  z-index: 1;
+  padding: 0;
+  order: 2;
+  margin: 0 18px;
+  margin-top: -9px;
+  display: inline-block;
+  padding-left: 16px;
+  padding-right: 17px;
+  text-align: center;
+  color: #444444;
+  font-size: 12px;
+  line-height: 12px;
+  font-family: $arial-font;
+  background-color: #f2f2f2;
+}
+
+@media (min-width: $tablet-width) {
+  .stats-list {
+    width: 366px;
+    justify-content: space-between;
+    padding-bottom: 60px;
+  }
+
+  .stats-list__wrapper {
+    width: 162px;
+  }
+
+  .stats-list__definition {
+    font-size: 30px;
+    line-height: 37px;
+    padding-bottom: 19px;
+  }
+
+  .stats-list__term {
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #ffffff;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .stats-list__term--weight {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .stats-list__term--time {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .stats-list__term br {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .stats-list {
+    padding-bottom: 20px;
+  }
+
+  .stats-list__term {
+    background-color: #f2f2f2;
+  }
+}
